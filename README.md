@@ -24,11 +24,11 @@
 
 - [x] [Conditionals (`if`, `else`, `elif`)](./control-flow/conditionals.md)
 - [x] [Loops (`for`, `while`)](./control-flow/loops.md)
-- [ ] [Loop Control (`break`, `continue`, `enumerate`)](./control-flow/loop-control.md)
+- [x] [Loop Control (`break`, `continue`, `enumerate`)](./control-flow/loop-control.md)
 
 ### 🔧 Functions and Lambdas
 
-- [ ] [Defining Functions](./functions-lambdas/defining-functions.md)
+- [x] [Defining Functions](./functions-lambdas/defining-functions.md)
 - [ ] [Lambda Functions](./functions-lambdas/lambda-functions.md)
 - [ ] [Function Arguments (default, *args, **kwargs)](./functions-lambdas/function-arguments.md)
 - [ ] [Returning Values](./functions-lambdas/returning-values.md)

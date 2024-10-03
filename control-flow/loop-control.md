@@ -86,6 +86,8 @@ for index, value in enumerate(iterable, start=0):
     # Code to execute with index and value
 ```
 
+> Here, `index` and `value` will be passed to the code block for each iteration.
+
 - `iterable`: The sequence you're iterating over (list, tuple, string, etc.).
 - `start`: Optional. The starting index (default is `0`).
 
