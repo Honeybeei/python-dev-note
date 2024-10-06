@@ -123,3 +123,13 @@ print("Hello", end="!")  # Output: Hello!
 - **Input Validations**: Always validate and sanitize user input to avoid errors or security issues.
 - **Formatted Output**: F-strings are preferred for better readability, especially when working with multiple variables or expressions.
 - **Handling Edge Cases**: Always consider edge cases like empty input or invalid types when working with user input.
+
+---
+
+> ⬅️ **[Previous: Operators](./operators.md)**
+>
+> ➡️ **[Next: String Manipulation and Methods](./string-manipulation-and-methods.md)**
+>
+> 🔝 **[Back to Top](#-user-input-and-output)**
+>
+> 🏠 **[Home](../../index.md)**

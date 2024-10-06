@@ -109,8 +109,12 @@ While lambda functions are useful, they do come with certain limitations:
 
 As a 42 common core graduate who has been exposed to classic programming languages like C, I find lambda functions to be a bit 💩. Codes should be readable. It doesn't really look good to me.
 
-## 👀 What’s Next?
+---
 
-- [Function Arguments](./function-arguments.md)
-- [Returning Values](./returning-values.md)
-- [Other topics](../README.md)
+> ⬅️ **[Previous: Function Arguments](./function-arguments.md)**
+>
+> ➡️ **[Next: Variable Scope (`local`, `global`, `nonlocal`)](./variable-scope.md)**
+>
+> 🔝 **[Back to Top](#-lambda-functions)**
+>
+> 🏠 **[Home](../../index.md)**

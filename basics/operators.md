@@ -179,3 +179,13 @@ print(6 not in x)  # Output: True
 
 - **Operator Precedence**: Operators in Python have a specific order of precedence, meaning some operators are evaluated before others. For example, multiplication (`*`) has higher precedence than addition (`+`), so in an expression like `2 + 3 * 4`, the multiplication is evaluated first.
 - **Associativity**: Some operators (like `+` and `*`) are **left-associative**, meaning they are evaluated from left to right. Other operators, such as exponentiation (`**`), are **right-associative**.
+
+---
+
+> ⬅️ **[Previous: Type Conversion](./type-conversion.md)**
+>
+> ➡️ **[Next: User Input and Output](./user-input-output.md)**
+>
+> 🔝 **[Back to Top](#-operators)**
+>
+> 🏠 **[Home](../../index.md)**

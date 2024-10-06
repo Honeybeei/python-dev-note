@@ -151,3 +151,11 @@ Hello, World!
 ```
 
 Congratulations! You've successfully written and executed your first Python program.
+
+---
+
+> ➡️ **[Next: Variables and Data Types](./variables-and-data-types.md)**
+>
+> 🔝 **[Back to Top](#-hello-world)**
+>
+> 🏠 **[Home](../../index.md)**

@@ -100,3 +100,13 @@ Raised when the code violates Python’s syntax rules:
 ```python
 print "Hello, World!"  # Missing parentheses (Python 3+ requires them)
 ```
+
+---
+
+> ⬅️ **[Previous: Variables and Data Types](./variables-and-data-types.md)**
+>
+> ➡️ **[Next: Type Conversion](./type-conversion.md)**
+>
+> 🔝 **[Back to Top](#-basic-syntax-and-comments)**
+>
+> 🏠 **[Home](../../index.md)**

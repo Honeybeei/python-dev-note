@@ -311,3 +311,13 @@ while number > 0:
 - **Variable scope**: Variables defined within a loop are accessible outside the loop in Python.
 - **Performance**: Be mindful of the efficiency of your loops, especially with large datasets or nested loops.
 - **Readability**: Write clear and readable loops; this makes your code easier to understand and maintain.
+
+---
+
+> ⬅️ **[Previous: Conditionals (`if`, `else`, `elif`)](./conditionals.md)**
+>
+> ➡️ **[Next: Loop Control Statements](./loop-control-statements.md)**
+>
+> 🔝 **[Back to Top](#-loops-for-while)**
+>
+> 🏠 **[Home](../../index.md)**

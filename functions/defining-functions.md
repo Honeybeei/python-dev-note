@@ -1,5 +1,19 @@
 # 🛠 Defining Functions
 
+- [🛠 Defining Functions](#-defining-functions)
+  - [📝 What are Functions?](#-what-are-functions)
+    - [Defining a Function](#defining-a-function)
+      - [Example](#example)
+    - [Function Execution](#function-execution)
+  - [📌 Why Use Functions?](#-why-use-functions)
+  - [🚨 Function Naming Rules](#-function-naming-rules)
+  - [🛠 Return Statement](#-return-statement)
+    - [Multiple Returns](#multiple-returns)
+  - [🏷️ Type Support in Functions](#️-type-support-in-functions)
+    - [Type Annotations for Parameters](#type-annotations-for-parameters)
+    - [Type Annotations for Return Values](#type-annotations-for-return-values)
+    - [Example with Type Annotations and Docstring](#example-with-type-annotations-and-docstring)
+
 ## 📝 What are Functions?
 
 In Python, a **function** is a block of reusable code that performs a specific task. Functions allow you to organize your code into manageable sections, avoid repetition, and make your programs more modular.
@@ -139,8 +153,12 @@ def calculate_area(width: float, height: float) -> float:
 
 By using type annotations, you're providing additional context to readers (and tools) about the types the function works with, making your code more reliable and maintainable.
 
-## 👀 What’s Next?
+---
 
-- [Lambda Functions](./lambda-functions.md)
-- [Function Arguments](./function-arguments.md)
-- [Other topics](../README.md)
+> ⬅️ **[Previous: Exception Handling](../control-flow/exception-handling.md)**
+>
+> ➡️ **[Next: Function Arguments](./function-arguments.md)**
+>
+> 🔝 **[Back to Top](#-defining-functions)**
+>
+> 🏠 **[Home](../../index.md)**

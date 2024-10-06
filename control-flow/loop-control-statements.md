@@ -333,3 +333,13 @@ print("Functions are defined but not implemented yet.")
 - **`continue`**: Skips the rest of the code in the current iteration.
 - **`pass`**: Does nothing; it's a placeholder.
 - **`else` in Loops**: Executes after normal loop completion, not after `break`.
+
+---
+
+> ⬅️ **[Previous: Loops (`for`, `while`)](./loops.md)**
+>
+> ➡️ **[Next: Exception Handling](./exception-handling.md)**
+>
+> 🔝 **[Back to Top](#-loop-control-statements)**
+>
+> 🏠 **[Home](../../index.md)**

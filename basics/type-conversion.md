@@ -268,3 +268,13 @@ assert isinstance(int(age), int), "Age must be an integer"
 - **Incompatible Conversions**: Some conversions are not allowed, such as converting the string `"hello"` to an integer. Always check whether the conversion is valid to avoid `ValueError`.
 
 - **Edge Cases**: Consider edge cases like empty strings, `None`, or zero when performing conversions, especially with `bool()`.
+
+---
+
+> ⬅️ **[Previous: Basic Syntax and Comments](./basic-syntax-and-comments.md)**
+>
+> ➡️ **[Next: Operators](./operators.md)**
+>
+> 🔝 **[Back to Top](#-type-conversion)**
+>
+> 🏠 **[Home](../../index.md)**

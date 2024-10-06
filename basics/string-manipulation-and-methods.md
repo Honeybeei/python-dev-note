@@ -453,3 +453,13 @@ print(translated_text)  # Output: 'Th3s 3s 1 t2st.'
 - Use f-strings for readable and efficient string formatting.
 - Utilize slicing and indexing to access and manipulate substrings.
 - Be cautious with operations that may lead to errors, such as index out of range.
+
+---
+
+> ⬅️ **[Previous: User Input and Output](./user-input-output.md)**
+>
+> ➡️ **[Next: Conditionals (`if`, `else`, `elif`)](../control-flow/conditionals.md)**
+>
+> 🔝 **[Back to Top](#-string-manipulation-and-methods)**
+>
+> 🏠 **[Home](../../index.md)**

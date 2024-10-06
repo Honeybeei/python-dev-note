@@ -176,7 +176,12 @@ print_person_info(**person)  # Unpacks the dictionary into keyword arguments
 - **Use default arguments wisely**: Default arguments should represent typical use cases but avoid complex default values (like mutable objects).
 - **Be mindful of mutability**: Understand the difference between mutable and immutable objects to prevent unintended side effects in your functions.
 
-## 🚀 What's Next?
+---
 
-- [Lists and List Comprehension](../data-structures/lists-list-comprehension.md)
-- [Check out other topics!](../README.md)
+> ⬅️ **[Previous: Defining Functions](./defining-functions.md)**
+>
+> ➡️ **[Next: Lambda Functions](./lambda-functions.md)**
+>
+> 🔝 **[Back to Top](#-function-arguments)**
+>
+> 🏠 **[Home](../../index.md)**

@@ -204,3 +204,13 @@ print(id(y)) # 140732674004048
 y.append(4)
 print(id(y)) # 140732674004048: Same memory location
 ```
+
+---
+
+> ⬅️ **[Previous: Hello, World!](./hello-world.md)**
+>
+> ➡️ **[Next: Basic Syntax and Comments](./basic-syntax-and-comments.md)**
+>
+> 🔝 **[Back to Top](#-variables-and-data-types)**
+>
+> 🏠 **[Home](../../index.md)**
