@@ -462,4 +462,4 @@ print(translated_text)  # Output: 'Th3s 3s 1 t2st.'
 >
 > 🔝 **[Back to Top](#-string-manipulation-and-methods)**
 >
-> 🏠 **[Home](../../index.md)**
+> 🏠 **[Home](../README.md)**

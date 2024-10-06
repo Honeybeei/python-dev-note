@@ -188,4 +188,4 @@ print(6 not in x)  # Output: True
 >
 > 🔝 **[Back to Top](#-operators)**
 >
-> 🏠 **[Home](../../index.md)**
+> 🏠 **[Home](../README.md)**

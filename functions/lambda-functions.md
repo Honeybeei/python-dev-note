@@ -117,4 +117,4 @@ As a 42 common core graduate who has been exposed to classic programming languag
 >
 > 🔝 **[Back to Top](#-lambda-functions)**
 >
-> 🏠 **[Home](../../index.md)**
+> 🏠 **[Home](../README.md)**

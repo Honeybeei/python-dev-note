@@ -132,4 +132,4 @@ print("Hello", end="!")  # Output: Hello!
 >
 > 🔝 **[Back to Top](#-user-input-and-output)**
 >
-> 🏠 **[Home](../../index.md)**
+> 🏠 **[Home](../README.md)**

@@ -320,4 +320,4 @@ while number > 0:
 >
 > 🔝 **[Back to Top](#-loops-for-while)**
 >
-> 🏠 **[Home](../../index.md)**
+> 🏠 **[Home](../README.md)**

@@ -342,4 +342,4 @@ print("Functions are defined but not implemented yet.")
 >
 > 🔝 **[Back to Top](#-loop-control-statements)**
 >
-> 🏠 **[Home](../../index.md)**
+> 🏠 **[Home](../README.md)**

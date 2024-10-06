@@ -108,4 +108,4 @@ print("x is greater than y") if x > y else print("x is less than or equal to y")
 >
 > 🔝 **[Back to Top](#-conditionals)**
 >
-> 🏠 **[Home](../../index.md)**
+> 🏠 **[Home](../README.md)**

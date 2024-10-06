@@ -368,4 +368,4 @@ In this example:
 >
 > 🔝 **[Back to Top](#️-exception-handling)**
 >
-> 🏠 **[Home](../../index.md)**
+> 🏠 **[Home](../README.md)**

@@ -184,4 +184,4 @@ print_person_info(**person)  # Unpacks the dictionary into keyword arguments
 >
 > 🔝 **[Back to Top](#-function-arguments)**
 >
-> 🏠 **[Home](../../index.md)**
+> 🏠 **[Home](../README.md)**

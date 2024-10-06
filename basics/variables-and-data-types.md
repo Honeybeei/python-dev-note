@@ -213,4 +213,4 @@ print(id(y)) # 140732674004048: Same memory location
 >
 > 🔝 **[Back to Top](#-variables-and-data-types)**
 >
-> 🏠 **[Home](../../index.md)**
+> 🏠 **[Home](../README.md)**

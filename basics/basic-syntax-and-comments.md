@@ -109,4 +109,4 @@ print "Hello, World!"  # Missing parentheses (Python 3+ requires them)
 >
 > 🔝 **[Back to Top](#-basic-syntax-and-comments)**
 >
-> 🏠 **[Home](../../index.md)**
+> 🏠 **[Home](../README.md)**

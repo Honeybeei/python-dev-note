@@ -158,4 +158,4 @@ Congratulations! You've successfully written and executed your first Python prog
 >
 > 🔝 **[Back to Top](#-hello-world)**
 >
-> 🏠 **[Home](../../index.md)**
+> 🏠 **[Home](../README.md)**
