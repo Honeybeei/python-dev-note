@@ -6,11 +6,11 @@
 
 ## 🤔 Why am I learning Python?
 
-> I am building an app which uses [LangChain](../../libraries-and-frameworks/lang-chain/README.md).  
+> I am building an app that uses [LangChain](../../libraries-and-frameworks/lang-chain/README.md).  
 > I want to use [FastAPI](../../libraries-and-frameworks/fast-api/README.md) for backend services.  
-> Python was my first programming language 👶. So I want to re-learn it and make a cheat-sheet for future reference.
+> Python was my first programming language 👶, so I want to re-learn it and make a cheat sheet for future reference.
 
-## 📑 List of Contents
+## 📑 Table of Contents
 
 ### 📝 Basics
 
@@ -19,84 +19,93 @@
 - [x] [Basic Syntax and Comments](./basics/basic-syntax-and-comments.md)
 - [x] [Type Conversion](./basics/type-conversion.md)
 - [x] [Operators](./basics/operators.md)
+- [x] [User Input and Output](./basics/user-input-output.md)
+- [x] [String Manipulation and Methods](./basics/string-manipulation-and-methods.md)
 
 ### 🔄 Control Flow
 
 - [x] [Conditionals (`if`, `else`, `elif`)](./control-flow/conditionals.md)
 - [x] [Loops (`for`, `while`)](./control-flow/loops.md)
-- [x] [Loop Control (`break`, `continue`, `enumerate`)](./control-flow/loop-control.md)
+- [x] [Loop Control Statements (`break`, `continue`, `pass`, `else` in loops)](./control-flow/loop-control-statements.md)
+- [x] [Exception Handling](./control-flow/exception-handling.md)
 
-### 🔧 Functions and Lambdas
+### 🔧 Functions
 
-- [x] [Defining Functions](./functions-lambdas/defining-functions.md)
-- [ ] [Lambda Functions](./functions-lambdas/lambda-functions.md)
-- [ ] [Function Arguments (default, *args, **kwargs)](./functions-lambdas/function-arguments.md)
-- [ ] [Returning Values](./functions-lambdas/returning-values.md)
+- [x] [Defining Functions](./functions/defining-functions.md)
+- [x] [Function Arguments (Default, `*args`, `**kwargs`)](./functions/function-arguments.md)
+- [x] [Lambda Functions](./functions/lambda-functions.md)
+- [ ] [Variable Scope (`local`, `global`, `nonlocal`)](./functions/variable-scope.md)
+- [ ] [Closures](./functions/closures.md)
+- [ ] [Decorators](./functions/decorators.md)
 
 ### 📚 Data Structures
 
-- [ ] [Lists and List Comprehension](./data-structures/lists-list-comprehension.md)
+- [ ] [Lists and List Comprehensions](./data-structures/lists-and-list-comprehensions.md)
 - [ ] [Tuples](./data-structures/tuples.md)
-- [ ] [Dictionaries and Dictionary Comprehension](./data-structures/dictionaries-dictionary-comprehension.md)
-- [ ] [Sets](./data-structures/sets.md)
-- [ ] [String Methods](./data-structures/string-methods.md)
+- [ ] [Dictionaries and Dictionary Comprehensions](./data-structures/dictionaries-and-dictionary-comprehensions.md)
+- [ ] [Sets and Set Comprehensions](./data-structures/sets-and-set-comprehensions.md)
+- [ ] [Advanced Data Structures (`collections` module)](./data-structures/advanced-data-structures.md)
 
 ### 🏛️ Object-Oriented Programming (OOP)
 
 - [ ] [Classes and Objects](./oop/classes-and-objects.md)
 - [ ] [Methods and Attributes](./oop/methods-and-attributes.md)
-- [ ] [Inheritance and Polymorphism](./oop/inheritance-polymorphism.md)
-- [ ] [Encapsulation and Abstraction](./oop/encapsulation-abstraction.md)
+- [ ] [Inheritance and Polymorphism](./oop/inheritance-and-polymorphism.md)
+- [ ] [Encapsulation and Abstraction](./oop/encapsulation-and-abstraction.md)
+- [ ] [Magic Methods and Operator Overloading](./oop/magic-methods-and-operator-overloading.md)
+- [ ] [Property Decorators (`@property`, `@setter`, `@deleter`)](./oop/property-decorators.md)
+- [ ] [Data Classes (`dataclasses` module)](./oop/data-classes.md)
 
 ### 📦 Modules and Packages
 
-- [ ] [Importing Modules](./modules-packages/importing-modules.md)
-- [ ] [Creating and Using Packages](./modules-packages/creating-using-packages.md)
-- [ ] [Standard Libraries Overview](./modules-packages/standard-libraries-overview.md)
+- [ ] [Importing Modules](./modules-and-packages/importing-modules.md)
+- [ ] [Creating and Using Packages](./modules-and-packages/creating-and-using-packages.md)
+- [ ] [Installing Packages with `pip`](./modules-and-packages/installing-packages-with-pip.md)
+- [ ] [Virtual Environments (`venv`, `virtualenv`)](./modules-and-packages/virtual-environments.md)
+- [ ] [Standard Libraries Overview](./modules-and-packages/standard-libraries-overview.md)
 
 ### 📂 File Handling
 
-- [ ] [Reading and Writing Files](./file-handling/reading-writing-files.md)
+- [ ] [Reading and Writing Files](./file-handling/reading-and-writing-files.md)
+- [ ] [File Modes and Buffering](./file-handling/file-modes-and-buffering.md)
+- [ ] [Working with Binary Files](./file-handling/working-with-binary-files.md)
 - [ ] [Context Managers (`with` statement)](./file-handling/context-managers.md)
+- [ ] [Handling CSV and JSON Files](./file-handling/handling-csv-and-json-files.md)
 
 ### ⚠️ Exception Handling
 
 - [ ] [Try-Except Blocks](./exception-handling/try-except-blocks.md)
+- [ ] [`else` and `finally` Clauses](./exception-handling/else-and-finally-clauses.md)
+- [ ] [Built-in Exceptions Overview](./exception-handling/built-in-exceptions-overview.md)
 - [ ] [Custom Exceptions](./exception-handling/custom-exceptions.md)
 
 ### 🚀 Advanced Topics
 
-- [ ] [Decorators](./advanced-topics/decorators.md)
-- [ ] [Iterators and Generators](./advanced-topics/iterators-generators.md)
-- [ ] [Type Hinting](./advanced-topics/type-hinting.md)
-- [ ] [Asynchronous Programming](./advanced-topics/asynchronous-programming.md)
+- [ ] [Type Hinting and Annotations](./advanced-topics/type-hinting-and-annotations.md)
+- [ ] [Iterators and Generators](./advanced-topics/iterators-and-generators.md)
+- [ ] [Advanced Decorators](./advanced-topics/advanced-decorators.md)
 - [ ] [Context Managers (Advanced Usage)](./advanced-topics/context-managers-advanced.md)
+- [ ] [Metaclasses](./advanced-topics/metaclasses.md)
 
-### 🔍 Useful Built-in Functions
+### ⏳ Asynchronous and Concurrent Programming
 
-- [ ] [Common Functions](./built-in-functions/common-functions.md)
-- [ ] [Map, Filter, Zip](./built-in-functions/map-filter-zip.md)
-- [ ] [All, Any, Sorted](./built-in-functions/all-any-sorted.md)
+- [ ] [Introduction to `asyncio`](./async-and-concurrent-programming/introduction-to-asyncio.md)
+- [ ] [Asynchronous Programming (`async` and `await`)](./async-and-concurrent-programming/asynchronous-programming.md)
+- [ ] [Multithreading](./async-and-concurrent-programming/multithreading.md)
+- [ ] [Multiprocessing](./async-and-concurrent-programming/multiprocessing.md)
 
-### 📦 External Libraries
+### 🔍 Built-in Functions and Utilities
 
-- [ ] [NumPy Overview](./external-libraries/numpy-overview.md)
-- [ ] [Pandas Overview](./external-libraries/pandas-overview.md)
-- [ ] [JSON Handling](./external-libraries/json-handling.md)
-- [ ] [Regular Expressions (`re`)](./external-libraries/regular-expressions.md)
-- [ ] [Date and Time (`datetime`)](./external-libraries/date-time.md)
+- [ ] [Common Functions (`len`, `range`, etc.)](./built-in-functions-and-utilities/common-functions.md)
+- [ ] [Functional Programming Tools (`map`, `filter`, `reduce`, `zip`)](./built-in-functions-and-utilities/functional-programming-tools.md)
+- [ ] [Utility Functions (`enumerate`, `sorted`, `reversed`, `any`, `all`)](./built-in-functions-and-utilities/utility-functions.md)
+- [ ] [`itertools` Module](./built-in-functions-and-utilities/itertools-module.md)
+- [ ] [`functools` Module](./built-in-functions-and-utilities/functools-module.md)
 
 ### 📚 Additional Topics
 
-- [ ] [Virtual Environments](./additional-topics/virtual-environments.md)
-- [ ] [Logging](./additional-topics/logging.md)
-- [ ] [Command-line Arguments (`sys.argv`)](./additional-topics/command-line-arguments.md)
-- [ ] [Collections Module](./additional-topics/collections-module.md)
-- [ ] [Data Classes](./additional-topics/data-classes.md)
-- [ ] [Style Guide](./additional-topics/style-guide.md)
+- [ ] [Virtual Environments (Revisited)](./additional-topics/virtual-environments.md)
+- [ ] [Documentation Tools (Sphinx, MkDocs)](./additional-topics/documentation-tools.md)
 - [x] [Docstrings](./additional-topics/docstrings.md)
-
-### 🧪 Testing
-
-- [ ] [Unit Testing (`unittest`)](./testing/unit-testing.md)
-- [ ] [Assertions](./testing/assertions.md)
+- [ ] [Style Guide (PEP 8)](./additional-topics/style-guide-pep8.md)
+- [ ] [Command-line Arguments (`sys.argv`, `argparse`)](./additional-topics/command-line-arguments.md)

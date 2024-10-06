@@ -1,5 +1,17 @@
 # 🙋 Hello, World!
 
+- [🙋 Hello, World!](#-hello-world)
+  - [🛠️ Installing Python](#️-installing-python)
+    - [🪟 Windows](#-windows)
+    - [🍏 macOS](#-macos)
+    - [🐧 Linux](#-linux)
+  - [🔄 Setting Alias for Python (macOS/Linux)](#-setting-alias-for-python-macoslinux)
+  - [✍️ Writing Your First Python Program](#️-writing-your-first-python-program)
+  - [🚀 Executing the Program](#-executing-the-program)
+    - [🪟 Windows](#-windows-1)
+    - [🍏 macOS/Linux (with alias)](#-macoslinux-with-alias)
+  - [🎉 Expected Output](#-expected-output)
+
 ## 🛠️ Installing Python
 
 To start programming in Python, the first step is to install Python on your computer. Here's how to do that:
@@ -139,8 +151,3 @@ Hello, World!
 ```
 
 Congratulations! You've successfully written and executed your first Python program.
-
-## 📚 What's Next?
-
-- [Check out the official Python documentation](https://docs.python.org/3/)
-- [Learn about Variables and Data Types in Python](./variables-and-data-types.md)

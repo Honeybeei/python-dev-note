@@ -1,4 +1,13 @@
-# 📘 Conditionals (`if`, `else`, `elif`)
+# 📘 Conditionals
+
+- [📘 Conditionals](#-conditionals)
+  - [❓ What are Conditionals?](#-what-are-conditionals)
+  - [🧠 Syntax](#-syntax)
+  - [🛠️ How It Works](#️-how-it-works)
+    - [Example with multiple conditions:](#example-with-multiple-conditions)
+  - [💡 Nested Conditionals](#-nested-conditionals)
+  - [🧠 Key Considerations](#-key-considerations)
+  - [🔄 One-Liner Conditionals](#-one-liner-conditionals)
 
 ## ❓ What are Conditionals?
 
@@ -19,8 +28,6 @@ else:
     # Code to execute if none of the conditions are True
 ```
 
-### Example:
-
 ```python
 age = 18
 
@@ -30,12 +37,8 @@ elif age == 18:
     print("You just became an adult!")
 else:
     print("You are an adult.")
-```
 
-### Output:
-
-```bash
-You just became an adult!
+# Output: You just became an adult!
 ```
 
 ## 🛠️ How It Works
@@ -55,19 +58,13 @@ elif temperature >= 20:
     print("It's a nice day!")
 else:
     print("It's cold outside!")
-```
 
-### Output:
-
-```bash
-It's a nice day!
+# Output: It's a nice day!
 ```
 
 ## 💡 Nested Conditionals
 
 You can nest conditional statements within each other to check multiple levels of conditions.
-
-### Example:
 
 ```python
 x = 10
@@ -80,12 +77,8 @@ if x > 0:
         print("x is positive, but y is not.")
 else:
     print("x is not positive.")
-```
 
-### Output:
-
-```bash
-Both x and y are positive.
+# Output: Both x and y are positive.
 ```
 
 ## 🧠 Key Considerations
@@ -99,21 +92,10 @@ Both x and y are positive.
 
 Python allows you to write conditionals in one line for simple conditions. (But I will not going to use it in my code. It's hard to read 🤯)
 
-### Example:
-
 ```python
 x = 5
 y = 10
 print("x is greater than y") if x > y else print("x is less than or equal to y")
+
+# Output: x is less than or equal to y
 ```
-
-### Output:
-
-```bash
-x is less than or equal to y
-```
-
-## 📚 What's Next?
-
-- Learn about [Loops (`for`, `while`)](./loops.md) and control the flow of repeated actions in Python.
-- [Check other topics](../README.md)

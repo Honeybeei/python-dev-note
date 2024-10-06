@@ -1,6 +1,19 @@
-# Basic Syntax and Comments
+#  📝 Basic Syntax and Comments
 
-## 📝 Python Syntax Overview
+- [📝 Basic Syntax and Comments](#-basic-syntax-and-comments)
+  - [🐍 Python Syntax Overview](#-python-syntax-overview)
+    - [Indentation](#indentation)
+    - [Statements and Line Breaks](#statements-and-line-breaks)
+    - [Comments](#comments)
+      - [Single-line Comments](#single-line-comments)
+      - [Multi-line Comments](#multi-line-comments)
+    - [Docstrings](#docstrings)
+  - [🛠 Common Syntax Errors](#-common-syntax-errors)
+    - [IndentationError](#indentationerror)
+    - [SyntaxError](#syntaxerror)
+
+
+## 🐍 Python Syntax Overview
 
 Python is known for its clear and easy-to-read syntax. Unlike many other programming languages, Python uses **indentation** to define the structure of the code, rather than curly braces or keywords. (I Have no Idea why they use indentation instead of curly braces. I think it's a bad idea 💩)
 
@@ -87,8 +100,3 @@ Raised when the code violates Python’s syntax rules:
 ```python
 print "Hello, World!"  # Missing parentheses (Python 3+ requires them)
 ```
-
-## What's Next?
-
-- [Type Conversion](./type-conversion.md)
-- [Check other topics](../README.md)

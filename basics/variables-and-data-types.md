@@ -1,8 +1,29 @@
 # 📘 Variables and Data Types
 
+- [📘 Variables and Data Types](#-variables-and-data-types)
+  - [📦 Variables](#-variables)
+    - [What is a Variable?](#what-is-a-variable)
+    - [Dynamic Typing](#dynamic-typing)
+    - [Naming Conventions and Best Practices](#naming-conventions-and-best-practices)
+  - [🏷️ Constants](#️-constants)
+  - [🔢 Basic Data Types](#-basic-data-types)
+    - [Integers(`int`)](#integersint)
+    - [Floats(`float`)](#floatsfloat)
+    - [Strings(`str`)](#stringsstr)
+    - [Booleans(`bool`)](#booleansbool)
+  - [🧱 Compound Data Types](#-compound-data-types)
+    - [Lists(`list`)](#listslist)
+    - [Tuples(`tuple`)](#tuplestuple)
+    - [Dictionaries(`dict`)](#dictionariesdict)
+    - [Sets(`set`)](#setsset)
+  - [📐 Type Checking and Conversion](#-type-checking-and-conversion)
+    - [`type()` function](#type-function)
+    - [Type Conversion](#type-conversion)
+  - [🔗 Mutability and Immutability](#-mutability-and-immutability)
+
 ## 📦 Variables
 
-### ❓ What is a Variable?
+### What is a Variable?
 
 Variables in Python are used to store data values. Unlike many other programming languages, Python does not require you to declare a variable’s type explicitly. A variable is created the moment you assign a value to it.
 
@@ -157,6 +178,8 @@ invalid_number = "Hello, World!"
 int(invalid_number) # ValueError raised -> will be stopped here
 ```
 
+More on type conversion in the [Type Conversion](./type-conversion.md) section.
+
 ## 🔗 Mutability and Immutability
 
 - **Mutable Data Types**: Lists, Dictionaries, Sets
@@ -181,8 +204,3 @@ print(id(y)) # 140732674004048
 y.append(4)
 print(id(y)) # 140732674004048: Same memory location
 ```
-
-## 📚 What's Next?
-
-- [Basic Syntax and Comments](./basic-syntax-and-comments.md)
-- [Check other topics](../README.md)

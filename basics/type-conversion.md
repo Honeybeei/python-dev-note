@@ -1,5 +1,29 @@
 # 📘 Type Conversion
 
+- [📘 Type Conversion](#-type-conversion)
+  - [❓ What is Type Conversion?](#-what-is-type-conversion)
+  - [🔄 Implicit Type Conversion](#-implicit-type-conversion)
+    - [Example:](#example)
+  - [🛠️ Explicit Type Conversion](#️-explicit-type-conversion)
+    - [Examples of Explicit Conversion:](#examples-of-explicit-conversion)
+  - [⚙️ Under-the-Hood Process](#️-under-the-hood-process)
+    - [Implicit Conversion Under-the-Hood](#implicit-conversion-under-the-hood)
+    - [Explicit Conversion Under-the-Hood](#explicit-conversion-under-the-hood)
+  - [🔄 Common Type Conversion Functions](#-common-type-conversion-functions)
+    - [`int()`](#int)
+    - [`float()`](#float)
+    - [`str()`](#str)
+    - [`bool()`](#bool)
+  - [🌐 Type Conversion in Expressions](#-type-conversion-in-expressions)
+    - [Example: Converting Input for Calculations](#example-converting-input-for-calculations)
+  - [🛡️ Best Practices for Handling Errors in Type Conversion](#️-best-practices-for-handling-errors-in-type-conversion)
+    - [Use `try-except` Blocks](#use-try-except-blocks)
+    - [Validate Input Before Conversion](#validate-input-before-conversion)
+    - [Provide Default Values](#provide-default-values)
+    - [Use Functions for Reusable Error Handling](#use-functions-for-reusable-error-handling)
+    - [Use Assertions to Ensure Valid Data Types](#use-assertions-to-ensure-valid-data-types)
+  - [🧠 Key Considerations](#-key-considerations)
+
 ## ❓ What is Type Conversion?
 
 Type conversion in Python refers to converting one data type into another. This is necessary when you need to perform operations on values of different types or display data in a specific format. Python provides built-in functions for **implicit** and **explicit** type conversion.
@@ -160,11 +184,9 @@ Type conversion errors, especially with user input or data from external sources
 
 Here are some best practices for handling errors during type conversion:
 
-### 1. Use `try-except` Blocks
+### Use `try-except` Blocks
 
 Wrap type conversion in a `try-except` block to catch errors like `ValueError` and handle them appropriately. This prevents the program from crashing when an invalid value is encountered.
-
-#### Example:
 
 ```python
 age_str = input("Enter your age: ")
@@ -178,11 +200,9 @@ except ValueError:
 
 In this example, if the user inputs something that cannot be converted to an integer (like "`abc`"), the program will print an error message instead of crashing.
 
-### 2. Validate Input Before Conversion
+### Validate Input Before Conversion
 
 Before attempting type conversion, it’s a good practice to check whether the value can be safely converted. For example, you can check if a string represents a valid number using the `str.isdigit()` method.
-
-#### Example:
 
 ```python
 age_str = input("Enter your age: ")
@@ -196,11 +216,9 @@ else:
 
 > Note: `isdigit()` works for positive integers only. For floating-point numbers or negative integers, other methods like regular expressions or custom validation functions may be needed.
 
-### 3. Provide Default Values
+### Provide Default Values
 
 When a conversion fails, you can handle the error by providing a default value instead of raising an error.
-
-#### Example:
 
 ```python
 age_str = input("Enter your age: ")
@@ -212,11 +230,9 @@ except ValueError:
     print("Invalid input! Using default age of 0.")
 ```
 
-### 4. Use Functions for Reusable Error Handling
+### Use Functions for Reusable Error Handling
 
 If your program requires frequent type conversions, it’s good practice to encapsulate the conversion logic and error handling into a function. This avoids code duplication and makes your program more maintainable.
-
-#### Example:
 
 ```python
 def safe_int_conversion(value, default=0):
@@ -234,11 +250,9 @@ age = safe_int_conversion(age_str, default=18)  # Default age is 18 if conversio
 print(f"Your age is {age}.")
 ```
 
-### 5. Use Assertions to Ensure Valid Data Types
+### Use Assertions to Ensure Valid Data Types
 
 You can use assertions to ensure that the data type is what you expect. This can be useful during debugging or when writing production code where certain assumptions must hold true.
-
-#### Example:
 
 ```python
 age = "25"
@@ -254,8 +268,3 @@ assert isinstance(int(age), int), "Age must be an integer"
 - **Incompatible Conversions**: Some conversions are not allowed, such as converting the string `"hello"` to an integer. Always check whether the conversion is valid to avoid `ValueError`.
 
 - **Edge Cases**: Consider edge cases like empty strings, `None`, or zero when performing conversions, especially with `bool()`.
-
-## 📚 What's Next?
-
-- [Operators](./operators.md)
-- [Check other topics](../README.md)

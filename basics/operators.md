@@ -1,5 +1,16 @@
 # 📘 Operators
 
+- [📘 Operators](#-operators)
+  - [❓ What are Operators?](#-what-are-operators)
+  - [➕ Arithmetic Operators](#-arithmetic-operators)
+  - [⚖️ Comparison (Relational) Operators](#️-comparison-relational-operators)
+  - [🔄 Logical Operators](#-logical-operators)
+  - [🧠 Bitwise Operators](#-bitwise-operators)
+  - [💼 Assignment Operators](#-assignment-operators)
+  - [🏷️ Identity Operators](#️-identity-operators)
+  - [🔍 Membership Operators](#-membership-operators)
+  - [🧠 Key Considerations](#-key-considerations)
+
 ## ❓ What are Operators?
 
 Operators in Python are special symbols that perform specific operations on variables and values. Python supports a variety of operators, allowing you to perform arithmetic calculations, comparisons, logical operations, and more.
@@ -28,8 +39,6 @@ Arithmetic operators are used to perform mathematical operations such as additio
 | `**`     | Exponentiation (Power)     | `x ** y`       |
 | `//`     | Floor Division (quotient)  | `x // y`       |
 
-### Example:
-
 ```python
 x = 10
 y = 3
@@ -56,8 +65,6 @@ Comparison operators compare two values and return a Boolean (`True` or `False`)
 | `>=`     | Greater than or equal to        | `x >= y` |
 | `<=`     | Less than or equal to           | `x <= y` |
 
-### Example:
-
 ```python
 x = 5
 y = 8
@@ -77,8 +84,6 @@ Logical operators are used to combine conditional statements.
 | `and`    | Returns `True` if both statements are true | `x and y` |
 | `or`     | Returns `True` if one of the statements is true | `x or y`  |
 | `not`    | Reverses the result: `True` becomes `False`, `False` becomes `True` | `not x` |
-
-### Example:
 
 ```python
 x = True
@@ -101,8 +106,6 @@ Bitwise operators work on bits and perform bit-by-bit operations.
 | `~`      | NOT                       | `~x`       |
 | `<<`     | Left Shift                | `x << 2`   |
 | `>>`     | Right Shift               | `x >> 2`   |
-
-### Example:
 
 ```python
 x = 5  # In binary: 101
@@ -131,8 +134,6 @@ Assignment operators are used to assign values to variables. They can also perfo
 | `**=`    | Exponentiation and assigns   | `x **= 2`   |
 | `//=`    | Floor division and assigns   | `x //= 3`   |
 
-### Example:
-
 ```python
 x = 10
 x += 5  # Equivalent to: x = x + 5
@@ -147,8 +148,6 @@ Identity operators check whether two variables refer to the same object in memor
 |----------|----------------------------|----------------|
 | `is`     | Returns `True` if both variables refer to the same object | `x is y` |
 | `is not` | Returns `True` if they do not refer to the same object | `x is not y` |
-
-### Example:
 
 ```python
 x = [1, 2, 3]
@@ -169,8 +168,6 @@ Membership operators test if a value or object is in a sequence.
 | `in`     | Returns `True` if a value is present in the sequence | `x in y`    |
 | `not in` | Returns `True` if a value is not present in the sequence | `x not in y`|
 
-### Example:
-
 ```python
 x = [1, 2, 3, 4, 5]
 
@@ -182,8 +179,3 @@ print(6 not in x)  # Output: True
 
 - **Operator Precedence**: Operators in Python have a specific order of precedence, meaning some operators are evaluated before others. For example, multiplication (`*`) has higher precedence than addition (`+`), so in an expression like `2 + 3 * 4`, the multiplication is evaluated first.
 - **Associativity**: Some operators (like `+` and `*`) are **left-associative**, meaning they are evaluated from left to right. Other operators, such as exponentiation (`**`), are **right-associative**.
-
-## 📚 What's Next?
-
-- [Control Flow](../control-flow/conditionals.md): Learn about conditional statements (`if`, `else`, `elif`) and loops (`for`, `while`) in Python.
-- [Check other topics](../README.md)
