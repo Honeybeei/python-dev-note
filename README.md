@@ -6,9 +6,9 @@
 
 ## 🤔 Why am I learning Python?
 
-> Python was my first programming language 👶, so I want to re-learn it and make a cheat sheet for future reference.
-> I want to use 🦜 **LangChain** and ⚡️ **FastAPI** for my projects. 🚀
-> I want to learn 🤖 **Machine Learning**. There are many libraries for that in Python.
+- Python was my first programming language 👶, so I want to re-learn it and make a cheat sheet for future reference.
+- I want to use 🦜 **LangChain** and ⚡️ **FastAPI** for my projects. 🚀  
+- I want to learn 🤖 **Machine Learning**. There are many libraries for that in Python.
 
 ## 📑 Table of Contents
 
