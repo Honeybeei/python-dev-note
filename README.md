@@ -40,10 +40,10 @@
 
 ### 📚 Data Structures
 
-- [x] [List](./data-structures/list.md)
-- [ ] [Tuple](./data-structures/tuple.md)
-- [ ] [Dictionary](./data-structures/dictionary.md)
-- [ ] [Set](./data-structures/set.md)
+- [x] [Lists](./data-structures/lists.md)
+- [x] [Tuples](./data-structures/tuples.md)
+- [ ] [Dictionaries](./data-structures/dictionaries.md)
+- [ ] [Sets](./data-structures/sets.md)
 - [ ] [Advanced Data Structures](./data-structures/advanced-data-structures.md)
 
 ### 🏛️ Object-Oriented Programming (OOP)

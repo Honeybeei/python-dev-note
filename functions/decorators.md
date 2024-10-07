@@ -273,7 +273,7 @@ def log_decorator(func):
 
 > ⬅️ **[Previous: closures](./closures.md)**
 >
-> ➡️ **[Next: Lists and List Comprehensions](../data-structures/list.md)**
+> ➡️ **[Next: Lists](../data-structures/lists.md)**
 >
 > 🔝 **[Back to Top](#-python-decorators)**
 >
