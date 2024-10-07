@@ -1,4 +1,21 @@
-# 🌟 About Python
+# 🌟 Python
+
+- [🌟 Python](#-python)
+  - [📘 What is Python?](#-what-is-python)
+  - [🤔 Why am I learning Python?](#-why-am-i-learning-python)
+  - [📑 Table of Contents](#-table-of-contents)
+    - [📝 Basics](#-basics)
+    - [🔄 Control Flow](#-control-flow)
+    - [🔧 Functions](#-functions)
+    - [📚 Data Structures](#-data-structures)
+    - [🏛️ Object-Oriented Programming (OOP)](#️-object-oriented-programming-oop)
+    - [📦 Modules and Packages](#-modules-and-packages)
+    - [📂 File Handling](#-file-handling)
+    - [⚠️ Exception Handling](#️-exception-handling)
+    - [🚀 Advanced Topics](#-advanced-topics)
+    - [⏳ Asynchronous and Concurrent Programming](#-asynchronous-and-concurrent-programming)
+    - [🔍 Built-in Functions and Utilities](#-built-in-functions-and-utilities)
+    - [📚 Additional Topics](#-additional-topics)
 
 ## 📘 What is Python?
 
