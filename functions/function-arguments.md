@@ -1,5 +1,19 @@
 # 🎯 Function Arguments
 
+- [🎯 Function Arguments](#-function-arguments)
+  - [📚 Types of Function Arguments](#-types-of-function-arguments)
+    - [📌 Positional Arguments](#-positional-arguments)
+    - [🏷️ Keyword Arguments](#️-keyword-arguments)
+    - [⚙️ Default Arguments](#️-default-arguments)
+    - [🌟 Variable-length Arguments (args and kwargs)](#-variable-length-arguments-args-and-kwargs)
+  - [🔑 Keyword-only Arguments](#-keyword-only-arguments)
+  - [🔄 Argument Passing in Python](#-argument-passing-in-python)
+  - [⛓️‍💥 Combining Different Types of Arguments](#️-combining-different-types-of-arguments)
+  - [📦 Argument Unpacking](#-argument-unpacking)
+    - [Unpacking with `*` (positional arguments)](#unpacking-with--positional-arguments)
+    - [Unpacking with `**` (keyword arguments)](#unpacking-with--keyword-arguments)
+  - [🏆 Best Practices for Function Arguments](#-best-practices-for-function-arguments)
+
 In Python, functions can accept various types of arguments, allowing for flexible, reusable code. Understanding how to handle function arguments is essential for writing efficient and clear Python functions.
 
 ## 📚 Types of Function Arguments

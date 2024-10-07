@@ -14,7 +14,6 @@
   - [🔍 Differences Between Closures and Lambda Functions](#-differences-between-closures-and-lambda-functions)
     - [Example:](#example)
   - [🚀 Practical Use Cases of Closures](#-practical-use-cases-of-closures)
-  - [🤔 However......](#-however)
 
 ## 🧐 What is a Closure?
 
@@ -135,10 +134,6 @@ print(multiply_by_2(5))  # Output: 10
 1. **Function Factories**: You can use closures to create functions that specialize in a task, like multiplying numbers by a given factor (as shown in the `multiplier` example).
 2. **Decorators**: Many decorators in Python are built using closures to modify or extend the behavior of functions. (For more on decorators, refer to the [Decorators](./decorators.md) chapter).
 3. **Callback Functions**: When passing a function as a callback (e.g., in asynchronous programming or event handling), closures can retain necessary context without relying on global variables.
-
-## 🤔 However......
-
-I will not use closures in my projects. For me, closures just make the code harder to understand and maintain. I prefer to use classes and objects for stateful functions and avoid the complexity that closures introduce.
 
 ---
 

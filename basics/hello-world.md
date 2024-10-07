@@ -34,9 +34,9 @@ To start programming in Python, the first step is to install Python on your comp
 1. Python comes pre-installed on macOS. However, it's recommended to install the latest version.
 2. Install [Homebrew](https://brew.sh/) if you haven't already. In the Terminal, run:
 
-   ```bash
-   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-   ```
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
 
 3. Install Python using Homebrew:
 

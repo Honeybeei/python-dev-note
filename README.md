@@ -35,16 +35,16 @@
 - [x] [Function Arguments (Default, `*args`, `**kwargs`)](./functions/function-arguments.md)
 - [x] [Lambda Functions](./functions/lambda-functions.md)
 - [x] [Variable Scope (`local`, `global`, `nonlocal`)](./functions/variable-scope.md)
-- [ ] [Closures](./functions/closures.md)
-- [ ] [Decorators](./functions/decorators.md)
+- [x] [Closures](./functions/closures.md)
+- [x] [Decorators](./functions/decorators.md)
 
 ### 📚 Data Structures
 
-- [ ] [Lists and List Comprehensions](./data-structures/lists-and-list-comprehensions.md)
-- [ ] [Tuples](./data-structures/tuples.md)
-- [ ] [Dictionaries and Dictionary Comprehensions](./data-structures/dictionaries-and-dictionary-comprehensions.md)
-- [ ] [Sets and Set Comprehensions](./data-structures/sets-and-set-comprehensions.md)
-- [ ] [Advanced Data Structures (`collections` module)](./data-structures/advanced-data-structures.md)
+- [x] [List](./data-structures/list.md)
+- [ ] [Tuple](./data-structures/tuple.md)
+- [ ] [Dictionary](./data-structures/dictionary.md)
+- [ ] [Set](./data-structures/set.md)
+- [ ] [Advanced Data Structures](./data-structures/advanced-data-structures.md)
 
 ### 🏛️ Object-Oriented Programming (OOP)
 
