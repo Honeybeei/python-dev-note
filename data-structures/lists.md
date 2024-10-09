@@ -14,7 +14,6 @@
     - [7. Sorting Lists](#7-sorting-lists)
     - [8. Reversing Lists](#8-reversing-lists)
   - [🎨 List Comprehensions](#-list-comprehensions)
-  - [🧰 Useful List Methods](#-useful-list-methods)
   - [🚀 Advanced List Features](#-advanced-list-features)
     - [1. Nested Lists](#1-nested-lists)
     - [2. Shallow vs. Deep Copy](#2-shallow-vs-deep-copy)
@@ -171,24 +170,6 @@ You can also add conditions to list comprehensions.
 evens = [x for x in range(10) if x % 2 == 0]
 print(evens)  # Output: [0, 2, 4, 6, 8]
 ```
-
-## 🧰 Useful List Methods
-
-Here’s a summary of other useful list methods:
-
-| Method               | Description                                      |
-|----------------------|--------------------------------------------------|
-| `append(item)`       | Adds an item to the end of the list               |
-| `extend(iterable)`   | Adds all the items from an iterable to the list   |
-| `insert(index, item)`| Inserts an item at a specified index              |
-| `remove(item)`       | Removes the first occurrence of the item          |
-| `pop([index])`       | Removes and returns the item at the specified index |
-| `clear()`            | Removes all elements from the list                |
-| `index(item)`        | Returns the index of the first occurrence of the item |
-| `count(item)`        | Returns the number of occurrences of the item     |
-| `sort()`             | Sorts the list in ascending order                 |
-| `reverse()`          | Reverses the order of elements in the list        |
-| `copy()`             | Returns a shallow copy of the list                |
 
 ## 🚀 Advanced List Features
 
