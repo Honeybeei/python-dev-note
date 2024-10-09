@@ -18,7 +18,11 @@
   - [🚀 Advanced List Features](#-advanced-list-features)
     - [1. Nested Lists](#1-nested-lists)
     - [2. Shallow vs. Deep Copy](#2-shallow-vs-deep-copy)
-  - [🧠 Best Practices](#-best-practices)
+  - [😏 List Cheat Sheet](#-list-cheat-sheet)
+    - [🔧 Creating and Accessing Lists](#-creating-and-accessing-lists)
+    - [🔄 Modifying Lists](#-modifying-lists)
+    - [🔍 Searching and Sorting Lists](#-searching-and-sorting-lists)
+    - [🧹 Utility Methods](#-utility-methods)
 
 ## 🎯 What is a List?
 
@@ -217,11 +221,46 @@ shallow = original.copy()
 deep = copy.deepcopy(original)
 ```
 
-## 🧠 Best Practices
+## 😏 List Cheat Sheet
 
-- Use **list comprehensions** for concise, readable code when transforming data.
-- Use **`append()`** instead of concatenation (`+`) when adding single elements to a list for better performance.
-- Be cautious of modifying lists while iterating over them. It can cause unexpected behavior.
+### 🔧 Creating and Accessing Lists
+
+| Method                           | Input (Parameters)                            | Return Value                           | Description                                                                                      | Example                                        |
+|----------------------------------|-----------------------------------------------|----------------------------------------|--------------------------------------------------------------------------------------------------|------------------------------------------------|
+| `list()`                         | Iterable (optional)                           | New list                               | Creates a new list from an iterable or empty list if no argument is provided.                    | `list((1, 2, 3))`                              |
+| `[]`                             | Elements (optional)                           | List                                  | Creates a new list using square brackets.                                                        | `[1, 2, 3]`                                    |
+| `list[index]`                    | `index`                                       | Value at the specified index           | Accesses the element at the specified index.                                                      | `my_list[0]`                                   |
+| `list[start:stop:step]`          | Slice parameters (`start`, `stop`, `step`)     | List                                  | Returns a slice of the list.                                                                     | `my_list[1:4]`                                 |
+
+### 🔄 Modifying Lists
+
+| Method                           | Input (Parameters)                            | Return Value                           | Description                                                                                      | Example                                        |
+|----------------------------------|-----------------------------------------------|----------------------------------------|--------------------------------------------------------------------------------------------------|------------------------------------------------|
+| `append(item)`                   | `item`                                        | None                                   | Adds an element to the end of the list.                                                          | `my_list.append(4)`                            |
+| `insert(index, item)`            | `index`, `item`                               | None                                   | Inserts an element at a specific index.                                                          | `my_list.insert(1, "new")`                     |
+| `extend(iterable)`               | Iterable                                      | None                                   | Adds elements from an iterable (e.g., list, tuple) to the end of the list.                       | `my_list.extend([5, 6])`                       |
+| `remove(item)`                   | `item`                                        | None                                   | Removes the first occurrence of an element.                                                      | `my_list.remove(3)`                            |
+| `pop(index)`                     | `index` (optional)                            | Removed element                        | Removes and returns the element at the specified index, or the last element if index is omitted.  | `my_list.pop()`                                |
+| `clear()`                        | None                                          | None                                   | Removes all elements from the list.                                                              | `my_list.clear()`                              |
+
+### 🔍 Searching and Sorting Lists
+
+| Method                           | Input (Parameters)                            | Return Value                           | Description                                                                                      | Example                                        |
+|----------------------------------|-----------------------------------------------|----------------------------------------|--------------------------------------------------------------------------------------------------|------------------------------------------------|
+| `index(item)`                    | `item`, `start`, `stop` (optional)            | Index of the first occurrence          | Returns the index of the first occurrence of the element.                                         | `my_list.index(3)`                             |
+| `count(item)`                    | `item`                                        | Number of occurrences                  | Returns the number of times an element appears in the list.                                       | `my_list.count(2)`                             |
+| `sort(reverse=False)`            | `reverse` (optional, default is `False`)      | None                                   | Sorts the list in ascending order by default. Set `reverse=True` for descending order.            | `my_list.sort()`                               |
+| `reverse()`                      | None                                          | None                                   | Reverses the order of the elements in the list.                                                   | `my_list.reverse()`                            |
+
+### 🧹 Utility Methods
+
+| Method                           | Input (Parameters)                            | Return Value                           | Description                                                                                      | Example                                        |
+|----------------------------------|-----------------------------------------------|----------------------------------------|--------------------------------------------------------------------------------------------------|------------------------------------------------|
+| `len(list)`                      | List                                          | Integer                                | Returns the number of elements in the list.                                                      | `len(my_list)`                                 |
+| `copy()`                         | None                                          | Shallow copy of the list               | Returns a shallow copy of the list.                                                              | `new_list = my_list.copy()`                    |
+| `sum(list)`                      | List of numeric values                        | Sum of all elements                    | Returns the sum of all elements in the list.                                                     | `sum([1, 2, 3])`                               |
+| `max(list)`                      | List                                          | Largest element                        | Returns the largest element in the list.                                                         | `max([1, 2, 3])`                               |
+| `min(list)`                      | List                                          | Smallest element                       | Returns the smallest element in the list.                                                        | `min([1, 2, 3])`                               |
 
 ---
 

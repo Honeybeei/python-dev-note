@@ -59,9 +59,9 @@
 
 - [x] [Lists](./data-structures/lists.md)
 - [x] [Tuples](./data-structures/tuples.md)
-- [ ] [Dictionaries](./data-structures/dictionaries.md)
-- [ ] [Sets](./data-structures/sets.md)
-- [ ] [Advanced Data Structures](./data-structures/advanced-data-structures.md)
+- [x] [Dictionaries](./data-structures/dictionaries.md)
+- [x] [Sets](./data-structures/sets.md)
+- [x] [Advanced Data Structures](./data-structures/advanced-data-structures.md)
 
 ### 🏛️ Object-Oriented Programming (OOP)
 
