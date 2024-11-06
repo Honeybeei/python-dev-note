@@ -58,7 +58,7 @@
 
 ### 🖥️ Virtual Environment
 
-- [ ] [Virtual Environment Overview](./virtual-environment/virtual-environment-overview.md)
+- [x] [Virtual Environment Overview](./virtual-environment/virtual-environment-overview.md)
 - [ ] [venv](./virtual-environment/venv.md)
 - [ ] [virtualenv](./virtual-environment/virtualenv.md)
 - [ ] [Conda](./virtual-environment/conda.md)
