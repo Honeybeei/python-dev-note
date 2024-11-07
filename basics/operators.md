@@ -9,21 +9,10 @@
   - [💼 Assignment Operators](#-assignment-operators)
   - [🏷️ Identity Operators](#️-identity-operators)
   - [🔍 Membership Operators](#-membership-operators)
-  - [🧠 Key Considerations](#-key-considerations)
 
 ## ❓ What are Operators?
 
 Operators in Python are special symbols that perform specific operations on variables and values. Python supports a variety of operators, allowing you to perform arithmetic calculations, comparisons, logical operations, and more.
-
-Python operators can be categorized into the following types:
-
-1. **Arithmetic Operators**
-2. **Comparison (Relational) Operators**
-3. **Logical Operators**
-4. **Bitwise Operators**
-5. **Assignment Operators**
-6. **Identity Operators**
-7. **Membership Operators**
 
 ## ➕ Arithmetic Operators
 
@@ -151,7 +140,7 @@ Identity operators check whether two variables refer to the same object in memor
 
 ```python
 x = [1, 2, 3]
-y = [1, 2, 3]
+y = [1, 2, 3] # Similar but different object
 z = x
 
 print(x is z)  # Output: True (x and z point to the same object)
@@ -174,18 +163,3 @@ x = [1, 2, 3, 4, 5]
 print(3 in x)  # Output: True
 print(6 not in x)  # Output: True
 ```
-
-## 🧠 Key Considerations
-
-- **Operator Precedence**: Operators in Python have a specific order of precedence, meaning some operators are evaluated before others. For example, multiplication (`*`) has higher precedence than addition (`+`), so in an expression like `2 + 3 * 4`, the multiplication is evaluated first.
-- **Associativity**: Some operators (like `+` and `*`) are **left-associative**, meaning they are evaluated from left to right. Other operators, such as exponentiation (`**`), are **right-associative**.
-
----
-
-> ⬅️ **[Previous: Type Conversion](./type-conversion.md)**
->
-> ➡️ **[Next: User Input and Output](./user-input-output.md)**
->
-> 🔝 **[Back to Top](#-operators)**
->
-> 🏠 **[Home](../README.md)**

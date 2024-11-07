@@ -30,8 +30,8 @@
 - [x] [Variables](./basics/variables.md)
 - [x] [Constants](./basics/constants.md)
 - [ ] [Data Types Overview](./basics/data-types-overview.md)
-- [ ] [Operators](./basics/operators.md)
-- [ ] [User Input and Output](./basics/user-input-output.md)
+- [x] [Operators](./basics/operators.md)
+- [x] [User Input and Output](./basics/user-input-output.md)
 
 ### 🔄 Control Flow
 
@@ -50,7 +50,7 @@
 
 ### 📚 Data Types and Structures
 
-- [ ] [Type Conversion](./basics/type-conversion.md)
+- [ ] [Type Conversion](./data-types-and-structures/type-conversion.md)
 
 ### 🏛️ Object-Oriented Programming (OOP)
 
@@ -59,12 +59,8 @@
 ### 🖥️ Virtual Environment
 
 - [x] [Virtual Environment Overview](./virtual-environment/virtual-environment-overview.md)
-- [ ] [venv](./virtual-environment/venv.md)
-- [ ] [virtualenv](./virtual-environment/virtualenv.md)
-- [ ] [Conda](./virtual-environment/conda.md)
-- [ ] [Pipenv](./virtual-environment/pipenv.md)
+- [x] [venv](./virtual-environment/venv.md)
 - [ ] [Poetry](./virtual-environment/poetry.md)
-- [ ] [Pyenv](./virtual-environment/pyenv.md)
 
 ### 📂 File Handling
 
