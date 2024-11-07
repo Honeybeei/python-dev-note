@@ -66,10 +66,13 @@ pip install -r requirements.txt
 
 ## 😎 My `.zshrc` Configuration
 
+> I have added the following aliases to my `.zshrc` file.
+> Change directory to the project folder and run the following commands.
+
 ```bash
-alias py-venv-create="python3 -m venv .venv"
-alias py-venv-activate="source .venv/bin/activate"
-alias py-venv-deactivate="deactivate"
-alias py-venv-freeze="pip freeze > requirements.txt"
-alias py-venv-install="pip install -r requirements.txt"
+alias py-venv-create="python3 -m venv .venv" # Create a virtual environment
+alias py-venv-activate="source .venv/bin/activate" # Activate the virtual environment
+alias py-venv-deactivate="deactivate" # Deactivate the virtual environment
+alias py-venv-freeze="pip freeze > requirements.txt" # Generate requirements.txt
+alias py-venv-install="pip install -r requirements.txt" # Install packages from requirements.txt
 ```
