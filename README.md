@@ -35,7 +35,7 @@
 - [x] [Comments and Docstrings](./basics/comments-and-docstrings.md)
 - [x] [Variables](./basics/variables.md)
 - [x] [Constants](./basics/constants.md)
-- [ ] [Data Types Overview](./basics/data-types-overview.md)
+- [x] [Data Types Overview](./basics/data-types-overview.md)
 - [x] [Operators](./basics/operators.md)
 - [x] [User Input and Output](./basics/user-input-output.md)
 
