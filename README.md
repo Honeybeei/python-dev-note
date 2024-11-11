@@ -58,38 +58,38 @@
 
 - [ ] [Type Conversion](./data-types-and-structures/type-conversion.md)
 
-#### 🔢 Primitive Data Types
+  #### 🔢 Primitive Data Types
 
-- [ ] [Integer](./data-types-and-structures/int.md)
-- [ ] [Floating-Point](./data-types-and-structures/float.md)
-- [ ] [Complex](./data-types-and-structures/complex.md)
-- [ ] [Boolean](./data-types-and-structures/boolean.md)
+  - [ ] [Integer](./data-types-and-structures/int.md)
+  - [ ] [Floating-Point](./data-types-and-structures/float.md)
+  - [ ] [Complex](./data-types-and-structures/complex.md)
+  - [ ] [Boolean](./data-types-and-structures/boolean.md)
 
-#### 🔠 Sequence Data Types
+  #### 🔠 Sequence Data Types
 
-- [ ] [String](./data-types-and-structures/string.md)
-- [ ] [List](./data-types-and-structures/list.md)
-- [ ] [Tuple](./data-types-and-structures/tuple.md)
-- [ ] [Range](./data-types-and-structures/range.md)
+  - [x] [String](./data-types-and-structures/string.md)
+  - [ ] [List](./data-types-and-structures/list.md)
+  - [ ] [Tuple](./data-types-and-structures/tuple.md)
+  - [ ] [Range](./data-types-and-structures/range.md)
 
-#### 🔍 Mapping Data Types
+  #### 🔍 Mapping Data Types
 
-- [ ] [Dictionary](./data-types-and-structures/dict.md)
+  - [ ] [Dictionary](./data-types-and-structures/dict.md)
 
-#### 🔗 Set Data Types
+  #### 🔗 Set Data Types
 
-- [ ] [Set](./data-types-and-structures/set.md)
-- [ ] [Frozen Set](./data-types-and-structures/frozenset.md)
+  - [ ] [Set](./data-types-and-structures/set.md)
+  - [ ] [Frozen Set](./data-types-and-structures/frozenset.md)
 
-#### 🗃️ Binary Data Types
+  #### 🗃️ Binary Data Types
 
-- [ ] [Bytes](./data-types-and-structures/bytes.md)
-- [ ] [Byte Array](./data-types-and-structures/bytearray.md)
-- [ ] [Memory View](./data-types-and-structures/memoryview.md)
+  - [ ] [Bytes](./data-types-and-structures/bytes.md)
+  - [ ] [Byte Array](./data-types-and-structures/bytearray.md)
+  - [ ] [Memory View](./data-types-and-structures/memoryview.md)
 
-#### ❓ None Type
+  #### ❓ None Type
 
-- [ ] [None Type](./data-types-and-structures/NoneType.md)
+  - [ ] [None Type](./data-types-and-structures/NoneType.md)
 
 ### 🏛️ Object-Oriented Programming (OOP)
 
