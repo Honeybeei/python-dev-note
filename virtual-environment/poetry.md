@@ -8,8 +8,16 @@
       - [Linux/MacOS](#linuxmacos)
       - [Windows](#windows)
     - [🏗️ Creating a New Project](#️-creating-a-new-project)
+    - [📥 Manage Dependencies](#-manage-dependencies)
+      - [Add Dependencies](#add-dependencies)
+      - [Remove Dependencies](#remove-dependencies)
+      - [Install Dependencies](#install-dependencies)
+      - [Update Dependencies](#update-dependencies)
+    - [🖥️ Virtual Environment Management](#️-virtual-environment-management)
+  - [📚 Files Explanation](#-files-explanation)
     - [👀 About `pyproject.toml`](#-about-pyprojecttoml)
-    - [📥 Installing Dependencies](#-installing-dependencies)
+      - [Sections:](#sections)
+    - [🔒 `poetry.lock`](#-poetrylock)
 
 ## 🧐 What is Poetry?
 
@@ -30,6 +38,8 @@ Poetry is a Python tool that simplifies dependency management and packaging, all
 
 > [Official Documentation](https://python-poetry.org/docs/)
 > Check the official documentation for the most up-to-date information!
+>
+> Or read my notes below. 😄
 
 ### 📦 Installation
 
@@ -71,6 +81,8 @@ or
 
 - **Create a new project manually**:
 
+  > You can also add Poetry to an Existing Project with the following steps:
+
   ```bash
   mkdir my_project
   cd my_project
@@ -79,9 +91,47 @@ or
 
   It will ask you a few questions to generate a `pyproject.toml` file.
 
+### 📥 Manage Dependencies
+
+#### Add Dependencies
+
+- `poetry add <package-name>`: Adds a package as a dependency. 
+- `poetry add <package-name> --dev`: Adds a package as a development dependency.
+
+#### Remove Dependencies
+
+- `poetry remove <package-name>`: Removes a package from dependencies.
+
+#### Install Dependencies
+
+- `poetry install`: Installs all dependencies from `pyproject.toml`.
+
+#### Update Dependencies
+
+- `poetry update`: Updates all dependencies to the latest version.
+
+### 🖥️ Virtual Environment Management
+
+- `poetry shell`: Activates the virtual environment.
+  - To deactivate the virtual environment, simply type `exit` or press `Ctrl + D`.
+- `poetry run <command>`: Runs a command in the virtual environment.
+  - Example: `poetry run python my_script.py`
+- `poetry env list`: Lists all virtual environments.
+- `poetry env remove <name>`: Removes a virtual environment.
+
+## 📚 Files Explanation
+
 ### 👀 About `pyproject.toml`
 
-`pyproject.toml` is a configuration file. This file will orchestrate your project and its dependencies.
+- Main configuration file for Poetry.
+- Contains project metadata, dependencies, and build settings.
+
+#### Sections:
+
+- `[tool.poetry]`: Project metadata like name, version, description, authors, license, etc.
+- `[tool.poetry.dependencies]`: Project dependencies.
+- `[tool.poetry.dev-dependencies]`: Development dependencies.
+- `[build-system]`: Build settings.
 
 ```toml
 [tool.poetry]
@@ -110,9 +160,7 @@ build-backend = "poetry.masonry.api"
 
 TODO: Add more information about `pyproject.toml`.
 
-### 📥 Installing Dependencies
+### 🔒 `poetry.lock`
 
-- `poetry add <package-name>`: Adds a package as a dependency. 
-- `poetry add <package-name> --dev`: Adds a package as a development dependency.
-
-TODO: KEEP WRITING ...
+- Auto-generated file that locks dependency versions.
+- Ensures the same versions are installed every time.
