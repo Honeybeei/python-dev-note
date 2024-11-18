@@ -99,7 +99,7 @@
 
 - [x] [Virtual Environment Overview](./virtual-environment/virtual-environment-overview.md)
 - [x] [venv](./virtual-environment/venv.md)
-- [ ] [Poetry](./virtual-environment/poetry.md)
+- [x] [Poetry](./virtual-environment/poetry.md)
 
 ### 📂 File Handling
 
