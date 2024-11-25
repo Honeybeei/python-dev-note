@@ -43,8 +43,7 @@
 
 - [x] [Conditionals (`if`, `else`, `elif`)](./control-flow/conditionals.md)
 - [x] [Iterables and Iterators](./control-flow/iterables-and-iterators.md)
-- [ ] [Loops (`for`, `while`)](./control-flow/loops.md)
-- [ ] [Loop Control Statements (`break`, `continue`, `pass`, `else` in loops)](./control-flow/loop-control-statements.md)
+- [x] [Loops (`for`, `while`) and Control Statements(`break`, `continue`, `pass`)](./control-flow/loops-and-control-statements.md)
 
 ### 🔧 Functions
 

@@ -1,6 +1,6 @@
-# ⚖️ Conditionals (`if`, `else`, `elif`)
+# ⚖️ Conditionals
 
-- [⚖️ Conditionals (`if`, `else`, `elif`)](#️-conditionals-if-else-elif)
+- [⚖️ Conditionals](#️-conditionals)
   - [🚀 It's easy!](#-its-easy)
   - [🌟 About Condition and Truthiness](#-about-condition-and-truthiness)
 
