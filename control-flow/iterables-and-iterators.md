@@ -1,6 +1,6 @@
-# Iterables and Iterators
+# 🔄 Iterables and Iterators
 
-## What are they?
+## 🤔 What are they?
 
 - **Iterable**: An object that can be iterated over. Examples include lists, tuples, strings, dictionaries, and sets.
 - **Iterator**: An object that represents a stream of data. It returns one element at a time from a collection when `next()` is called on it. An iterator must implement the `__iter__()` and `__next__()` methods.
@@ -8,7 +8,9 @@
 - `__iter__()` : This method returns the iterator object itself. It is required to make an object iterable.
 - `__next__()` : This method returns the next item from the collection. If there are no more items, it raises the `StopIteration` exception.
 
-## When to use them?
+So Iterator is kind of a **pointer** to the current element in the collection.
+
+## ⚡ When and How to use them?
 
 Iterables and iterators are used when you want to iterate over a collection of items. They are used in loops, comprehensions, and generators.
 
