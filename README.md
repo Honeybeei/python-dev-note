@@ -48,7 +48,7 @@
 ### 🔧 Functions
 
 - [x] [Defining Functions](./functions/defining-functions.md)
-- [ ] [Function Arguments](./functions/function-arguments.md)
+- [x] [Function Arguments](./functions/function-arguments.md)
 - [ ] [Lambda Functions](./functions/lambda-functions.md)
 - [ ] [Variable Scope (`local`, `global`, `nonlocal`)](./functions/variable-scope.md)
 - [ ] [Closures](./functions/closures.md)
