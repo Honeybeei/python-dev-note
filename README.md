@@ -1,6 +1,6 @@
-# 🌟 Python
+# 🐍 Python Dev Note
 
-- [🌟 Python](#-python)
+- [🐍 Python Dev Note](#-python-dev-note)
   - [📘 Why am I writing this note?](#-why-am-i-writing-this-note)
   - [📑 Table of Contents](#-table-of-contents)
     - [📝 Basics](#-basics)
@@ -41,7 +41,8 @@
 
 ### 🔄 Control Flow
 
-- [ ] [Conditionals (`if`, `else`, `elif`)](./control-flow/conditionals.md)
+- [x] [Conditionals (`if`, `else`, `elif`)](./control-flow/conditionals.md)
+- [x] [Iterables and Iterators](./control-flow/iterables-and-iterators.md)
 - [ ] [Loops (`for`, `while`)](./control-flow/loops.md)
 - [ ] [Loop Control Statements (`break`, `continue`, `pass`, `else` in loops)](./control-flow/loop-control-statements.md)
 

@@ -47,7 +47,7 @@ Poetry is a Python tool that simplifies dependency management and packaging, all
 
 #### Linux/MacOS
 
-```bas
+```bash
 curl -sSL https://install.python-poetry.org | python3 -h
 ```
 
