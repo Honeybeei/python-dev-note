@@ -21,6 +21,7 @@
     - [🚀 Advanced Topics](#-advanced-topics)
     - [⏳ Asynchronous and Concurrent Programming](#-asynchronous-and-concurrent-programming)
     - [🔍 Built-in Functions and Utilities](#-built-in-functions-and-utilities)
+    - [📅 Standard Library](#-standard-library)
     - [📚 Additional Topics](#-additional-topics)
 
 ## 📘 Why am I writing this note?
@@ -111,4 +112,10 @@
 
 ### 🔍 Built-in Functions and Utilities
 
+### 📅 Standard Library
+
+- [ ] [datetime](./standard-library/datetime.md)
+
 ### 📚 Additional Topics
+
+- [x] [My VSCode Setup for Python Development](./additional-topics/vscode-setup.md)
