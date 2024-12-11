@@ -1,5 +1,56 @@
 # 🛣️ Data Types Overview
 
+- [🛣️ Data Types Overview](#️-data-types-overview)
+  - [Mutable vs Immutable](#mutable-vs-immutable)
+  - [Ordered vs Unordered Collections](#ordered-vs-unordered-collections)
+  - [Truthiness and Falsiness of values](#truthiness-and-falsiness-of-values)
+  - [🏛️ The Overview](#️-the-overview)
+
+## Mutable vs Immutable
+
+- **Mutable Objects** can be changed after they are created.
+  - Examples:
+    - **list**: `my_list = [1, 2, 3]` (can do `my_list[0] = 10`)
+    - **dict**: `my_dict = {"name": "Alice"}` (can do `my_dict["name"] = "Bob"`)
+- **Immutable Objects** cannot be changed after they are created.
+  - Examples:
+    - **Integers**: `x = 10` (reassigning `x` just creates a new int)  
+    - **Strings**: `s = "hello"` (you can’t change letters in place)  
+    - **Tuples**: `t = (1, 2, 3)` (can’t modify elements inside the tuple)
+
+## Ordered vs Unordered Collections
+
+- **Ordered collections** maintain the sequence of insertion.  
+  Examples:  
+  - **Lists**: `[10, 20, 30]` (the order is always the same)  
+  - **Tuples**: `(1, 2, 3)` (fixed order)  
+  - **Strings**: `"abc"` (characters have a defined order)
+
+- **Unordered collections** do not maintain a specific sequence.  
+  Examples:  
+  - **Sets**: `{1, 2, 3}` (the order can vary)  
+  - **Dictionaries** (in Python 3.6+, dicts do remember insertion order, but historically they were considered unordered. As of Python 3.7+, the order is guaranteed. For older versions, consider dict keys as unordered.)
+
+## Truthiness and Falsiness of values
+
+In Python, values can behave like `True` or `False` when used in conditionals:
+
+- **Falsy values** are treated as `False` in a boolean context.  
+  Examples:  
+  - `0` (zero of any numeric type)  
+  - `""` (empty string)  
+  - `[]` (empty list)  
+  - `{}` (empty dictionary)  
+  - `None`
+
+- **Truthiness**: Any value not considered falsy is treated as `True`.  
+  Examples:  
+  - `42` (non-zero integers)  
+  - `"hello"` (non-empty strings)  
+  - `[1, 2]` (non-empty lists)
+
+## 🏛️ The Overview
+
 | Category  | Type                                                       | Description                        | Example                |
 | --------- | ---------------------------------------------------------- | ---------------------------------- | ---------------------- |
 | Primitive | [`int`](../data-types-and-structures/int.md)               | Whole numbers                      | `10`, `-5`             |

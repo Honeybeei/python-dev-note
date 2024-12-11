@@ -1,5 +1,9 @@
 # 🔄 Iterables and Iterators
 
+- [🔄 Iterables and Iterators](#-iterables-and-iterators)
+  - [🤔 What are they?](#-what-are-they)
+  - [⚡ When and How to use them?](#-when-and-how-to-use-them)
+
 ## 🤔 What are they?
 
 - **Iterable**: An object that can be iterated over. Examples include lists, tuples, strings, dictionaries, and sets.

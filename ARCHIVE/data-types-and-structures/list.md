@@ -8,7 +8,7 @@
     - [🔄 Using `list` comprehension](#-using-list-comprehension)
   - [➕ Adding Elements](#-adding-elements)
     - [📌 `append()`](#-append)
-    - [� `insert()`](#-insert)
+    - [👇 `insert()`](#-insert)
     - [🎢 `extend()`](#-extend)
   - [➖ Removing Elements](#-removing-elements)
   - [🔍 Finding Elements and Counting](#-finding-elements-and-counting)

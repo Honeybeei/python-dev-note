@@ -25,4 +25,3 @@ Combination of a date and a time.
 - **String Parsing/Formatting**: Flexible conversion between strings and datetime objects.
 - **Compatible with SQL**: Easy to work with database timestamps.
 - **Microsecond Precision**: High precision time handling.
-

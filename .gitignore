@@ -1,1 +1,2 @@
-sandbox.py
+# ignore all files in sandbox
+sandbox/*

@@ -59,10 +59,13 @@ print(say_hello("Honeybeei")) # Hello, Honeybeei!
 
 ```python
 def say_hello_to_everyone(*names):
-  for name in names:
-    print(f'Hello, {name}!')
+    print(type(names))  # <class 'tuple'>
+    for name in names:
+        print(f"Hello, {name}!")
 
-say_hello_to_everyone('Alice', 'Bob', 'Charlie')
+
+say_hello_to_everyone("Alice", "Bob", "Charlie")
+# <class 'tuple'>
 # Hello, Alice!
 # Hello, Bob!
 # Hello, Charlie!
@@ -74,10 +77,12 @@ say_hello_to_everyone('Alice', 'Bob', 'Charlie')
 
 ```python
 def print_person_info(**person):
+  print(type(person))  # <class 'dict'>
   for key, value in person.items():
     print(f'{key}: {value}')
 
 print_person_info(name='Honeybeei', age=29, city='Hamburg')
+# <class 'dict'>
 # name: Honeybeei
 # age: 29
 # city: Hamburg
@@ -114,7 +119,7 @@ print_person_info(**person)
 
 - The order of the arguments should be:
   - Positional arguments
-  - `*args`: diff
+  - `*args`
   - Keyword arguments
   - `**kwargs`
 

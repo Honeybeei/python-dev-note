@@ -6,10 +6,13 @@
     - [🔢 Handling Different Data Types](#-handling-different-data-types)
     - [✅ Best Practices for Handling Input](#-best-practices-for-handling-input)
     - [🚀 Advanced Input Techniques](#-advanced-input-techniques)
-  - [� Displaying Output to the User](#-displaying-output-to-the-user)
+  - [💁 Displaying Output to the User](#-displaying-output-to-the-user)
     - [🖨️ Using the `print()` Function](#️-using-the-print-function)
     - [📝 Formatted Output (f-strings)](#-formatted-output-f-strings)
     - [🔀 Working with Multiple Outputs](#-working-with-multiple-outputs)
+    - [◀️ Carriage Return (`\r`) and Backspace (`\b`)](#️-carriage-return-r-and-backspace-b)
+    - [Carriage Return (`\r`)](#carriage-return-r)
+    - [Backspace (`\b`)](#backspace-b)
 
 ## 🎤 Taking Input from the User
 
@@ -113,4 +116,37 @@ You can use the `sep` and `end` parameters of the `print()` function for advance
 ```python
 print("apple", "banana", "cherry", sep=", ")  # Output: apple, banana, cherry
 print("Hello", end="!")  # Output: Hello!
+```
+
+### ◀️ Carriage Return (`\r`) and Backspace (`\b`)
+
+### Carriage Return (`\r`)
+
+- **Function:** Moves the cursor back to the start of the current line without advancing downward.
+- **Common Use:** Often used in terminal outputs to overwrite content on the same line.
+  - For example, using `print("Loading\rDone")` might first print `Loading` and then use `\r` to return the cursor to the start of the line and then print `Done` over it.  
+  - Result on the screen:  
+
+    ```Plain Text
+    Done
+    ```
+
+    (instead of two separate lines)
+
+### Backspace (`\b`)
+
+- **Function:** Moves the cursor one character position backwards.
+- **Common Use:** Erase or overwrite previously printed characters on the same line.
+  - For example, `print("Hello\b", end="")` prints `Hello` and then moves back one space, so if you print another character immediately after, it will overwrite the last character of `Hello`.
+  - If you follow with `print("a", end="")`, the result on the screen would be:
+
+    ```Plain Text
+    Hella
+    ```
+
+    (the `o` is replaced by `a`)
+
+
+```python
+print("Loading...", end="\r")
 ```
