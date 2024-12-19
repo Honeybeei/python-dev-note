@@ -12,30 +12,31 @@
 ## 📜 Notes Must Contain
 
 - **Table of Contents** right after the title(#).
-- **## 🔑 Key word** section
+- **## 🔑 Key Words** section
 - **## 👀 Fast Lookup** section
 - **Back link** to the main page(README.md) at the end of the note.
 
 ## 📑 List of Contents
 
-- [ ] [Docstrings](./docstrings.md)
-- [ ] [Constants](./constants.md)
-- [ ] [Mutable vs Immutable](./mutable-immutable.md)
-- [ ] [Ordered vs Unordered Collections](./ordered-unordered.md)
-- [ ] [Truthy and Falsy Values](./truthy-falsy.md)
-- [ ] [String Formatting](./string-formatting.md)
-- [ ] [Iterables and Iterators](./iterables-iterators.md)
-- [ ] [Function Arguments](./function-arguments.md)
-- [ ] [Lambda Functions](./lambda-functions.md)
-- [ ] [Generators](./generators.md)
-- [ ] [Closures](./closures.md)??
-- [ ] [Decorators](./decorators.md)??
-- [ ] [Modules and Packages](./modules-packages.md)
-- [ ] [File I/O](./file-io.md)
-- [ ] [Python Virtual Environment [venv, Poetry]](./virtual-environment.md)
-- [ ] [Poetry](./poetry.md)
-- [ ] [if \__name__ == "\__main__": block](./if-name-main.md)
-- [ ] [Linters [Flake8]](./linters.md)
-- [ ] [VSCode Settings](./vscode-settings.md)
-- [ ] [.zshrc Settings](./zshrc-settings.md)
-- [ ] [Style Guide and Best Practices](./style-guide-best-practices.md)
+- [x] [📄 Docstrings](./docstrings.md)
+- [x] [📏 Constants](./constants.md)
+- [ ] [📝 Type Hints](./type-hints.md)
+- [ ] [🔄 Mutable vs Immutable](./mutable-immutable.md)
+- [ ] [📚 Ordered vs Unordered Collections](./ordered-unordered.md)
+- [ ] [⚖️ Truthy and Falsy Values](./truthy-falsy.md)
+- [ ] [✏️ String Formatting](./string-formatting.md)
+- [ ] [🔄 Iterables and Iterators](./iterables-iterators.md)
+- [ ] [📥 Function Arguments](./function-arguments.md)
+- [ ] [➡️ Lambda Functions](./lambda-functions.md)
+- [ ] [🔄 Generators](./generators.md)
+- [ ] [🔒 Closures](./closures.md)??
+- [ ] [🎨 Decorators](./decorators.md)??
+- [x] [📦 Modules and Packages](./modules-packages.md)
+- [ ] [📂 File I/O](./file-io.md)
+- [x] [🧹 `with` Keyword and Context Manager](./with-context-manager.md)
+- [ ] [🌐 Python Virtual Environment [venv, Poetry]](./virtual-environment.md)
+- [ ] [🔍 if \__name__ == "\__main__": block](./if-name-main.md)
+- [ ] [🧹 Linters [Flake8]](./linters.md)
+- [ ] [🛠️ VSCode Settings](./vscode-settings.md)
+- [ ] [⚙️ .zshrc Settings](./zshrc-settings.md)
+- [ ] [👍 Style Guide and Best Practices](./style-guide-best-practices.md)
